@@ -12,11 +12,7 @@ public class ContaCorrente extends Conta {
     }
 
     @Override
-    public String toString(){
-        return "ContaCorrente{"+
-                "titular=" + titular +", "+
-                "saldo=" + saldo +", " +
-                "taxa=" + taxa +
-                "}";
+    public String toString() {
+        return "ContaPoupanca{" + super.toString() + "}";
     }
 }

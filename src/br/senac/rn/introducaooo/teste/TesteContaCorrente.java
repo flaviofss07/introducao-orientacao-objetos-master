@@ -16,7 +16,7 @@ public class TesteContaCorrente {
 
         System.out.println(contaFlavio);
 
-        Conta contaCaio = new Conta();
+        ContaCorrente contaCaio = new ContaCorrente();
 
         contaCaio.setTitular("Caio");
         contaCaio.setAgencia("3434-5");

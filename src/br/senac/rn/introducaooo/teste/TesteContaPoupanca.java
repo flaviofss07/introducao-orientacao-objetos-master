@@ -14,8 +14,9 @@ public class TesteContaPoupanca {
 
         System.out.println(contaJefferson);
 
-        for (int i = 0; i > 2; i++){
-        contaJefferson.rende();
+        for (int i = 0; i > 2; i++) {
+            contaJefferson.rende();
             System.out.println(contaJefferson);
+        }
     }
 }

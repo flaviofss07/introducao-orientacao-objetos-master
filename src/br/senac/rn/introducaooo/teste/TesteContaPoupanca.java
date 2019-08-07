@@ -1,6 +1,8 @@
 package br.senac.rn.introducaooo.teste;
 
 import br.senac.rn.introducaooo.ContaPoupanca;
+import br.senac.rn.introducaooo.Pessoa;
+import br.senac.rn.introducaooo.Sexo;
 
 public class TesteContaPoupanca {
 
@@ -8,7 +10,12 @@ public class TesteContaPoupanca {
 
         ContaPoupanca contaJefferson = new ContaPoupanca();
 
-        contaJefferson.setTitular("Jefferson andrade");
+        Pessoa jefferson = new Pessoa();
+
+        jefferson.setNome("Jefferson andrade");
+        jefferson.setSexo(Sexo.MASCULINO);
+
+        contaJefferson.setTitular(jefferson);
 
         contaJefferson.deposita(1000.0);
 

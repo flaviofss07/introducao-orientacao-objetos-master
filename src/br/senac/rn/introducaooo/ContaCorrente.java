@@ -32,6 +32,6 @@ public class ContaCorrente extends Conta {
 
     @Override
     public String toString() {
-        return "ContaPoupanca{" + super.toString() + "}";
+        return "ContaCorrente{" + super.toString() + "}";
     }
 }
